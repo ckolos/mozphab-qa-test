@@ -11,8 +11,10 @@ docker pull ckolos/mozphab-qa-test
 ```
 ## Create an env file in the following format:
 ```
+cat << EOF >>env.txt
 libhash=<hash of libphutil shown at https://<phabricator instance>/__version__>
 archash=<hash of arcanist shown at https://<phabricator instance>/__version__>
+EOF
 ```
 ## Execute the docker container as below:
 ```
