@@ -18,6 +18,6 @@ EOF
 ```
 ## Execute the docker container as below:
 ```
-docker run --it --rm --env-file <path to env file> ckolos/mozphab-qa-test:latest 
+docker run --it --rm --env-file env.txt ckolos/mozphab-qa-test:latest 
 ```
 ## Continue with qa testing as directed
